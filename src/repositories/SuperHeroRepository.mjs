@@ -67,7 +67,7 @@ class SuperHeroRepository extends IRepository{
   //    Eliminar Heroe por Nombre    //
   async eliminarPorNombre(nombre){
       // findByIdAndDelete() y findOneAndDelete() también devuelven el documento modificado
-      const heroeEliminado = SuperHero.findOneAndDelete({nombreSuperHeroe: nombre});
+      const heroeEliminado = SuperHero.findOneAndDelete({nombreSuperheroe: nombre});
       console.log(heroeEliminado);
       return heroeEliminado;
   }

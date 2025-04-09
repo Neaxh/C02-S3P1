@@ -1,9 +1,9 @@
 //funciones para presentacion de los datos, organiza la informacion de los superheroes en un formato estrcuturado 
 
-export function renderizarSuperheroe(superheroe){
+export function renderizarSuperheroe(superheroe) {
     return {
         id: superheroe.id,
-        Nombre: superheroe.nombreSuperHeroe,
+        Nombre: superheroe.nombreSuperheroe,  // 🔧 CAMBIADO!
         "Nombre Real": superheroe.nombreReal,
         "Nombre Social": superheroe.nombreSocial,
         Edad: superheroe.edad,
